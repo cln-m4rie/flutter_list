@@ -64,7 +64,7 @@ Widget menuItem(String title, Function() onPressed) {
         ),
         child: TextButton(
           style: TextButton.styleFrom(
-            padding: EdgeInsets.all(24),
+            padding: const EdgeInsets.all(24),
             shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.all(Radius.circular(0.0)),
             ),
